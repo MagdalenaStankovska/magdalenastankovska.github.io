@@ -1,0 +1,296 @@
+
+.linkovi{
+    display: inline-block;
+    float: left;
+    width: 100%;
+
+}
+.linkovi ul li{
+    display: inline-block;
+    list-style: none;
+    padding-left: 10px;
+    margin-left: 210px;
+    font-weight: 700;
+}
+.linkovi ul li a{
+    text-decoration: none;
+    background: #4d2825;
+    color: white;
+    border-radius: 10px;
+    opacity: 75%;
+    padding:5px 7px 7px 5px;
+    font-size: 25px;
+}
+.linkovi ul li a:hover{
+    opacity: 100%;
+}
+#homepage{
+    background: url("../images/omilenaslika.jpg")no-repeat;
+    background-size: contain;
+    height: 900px;
+    width: 100%;
+    display: inline-block;
+}
+.homepage h1{
+    margin-top: 480px;
+    text-align: center;
+    font-size: 40px;
+    width: 40%;
+    margin-left: 460px;
+    font-family: Helvetica;
+    color: white;
+
+}
+.homepage a{
+    margin-left: 690px;
+    border-radius: 20px;
+    background: palegreen;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Helvetica;
+    color: white;
+    font-weight: 500;
+}
+.homepage a:hover{
+    background: #91caff;
+}
+#boja{
+    width: 100%;
+    height: 20px;
+    background: #a3ff9e;
+    margin-top: -53px;
+}
+#aboutmylife{
+    background: #e2faff;
+    padding-top: 10px;
+    border-bottom: 7px solid steelblue;
+}
+#aboutmylife h2{
+    font-size: 30px;
+    font-family: Helvetica;
+}
+#aboutmylife #naslov{
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 30px;
+}
+#aboutmylife .student{
+    display: inline-block;
+    float: left;
+}
+#aboutmylife .sport {
+    display: inline-block;
+}
+#aboutmylife .sport img{
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+   margin-left: 20px;
+}
+#aboutmylife .container{
+    margin-top: 20px;
+    display: inline-block;
+    width: 100%;
+}
+#aboutmylife .student{
+    display: inline-block;
+    width: 45%;
+    font-family: Helvetica;
+    padding: 5px 10px 5px 55px;
+
+}
+#aboutmylife .student p{
+    padding-top: 11px;
+    color: steelblue;
+
+}
+#aboutmylife .student img{
+    width: 500px;
+    height: 260px;
+    border-radius: 20px;
+    margin-left: 60px;
+    margin-top: 35px;
+}
+#aboutmylife .student a{
+    margin-left: 186px;
+    margin-top: 20px;
+    background: #a3ff9e;
+    padding: 5px;
+    color: steelblue;
+    border-radius: 10px;
+    font-family: Helvetica;
+    text-decoration: none;
+}
+#aboutmylife .student a:hover{
+    background: #91caff;
+}
+#aboutmylife .sport{
+    display: inline-block;
+    font-family: Helvetica;
+    width: 45%;
+    padding: 0 10px 5px 10px;
+}
+#aboutmylife .sport p{
+    padding: 11px;
+    color: steelblue;
+}
+#races{
+    display: inline-block;
+    width: 100%;
+    background: #e3fcff;
+}
+.img {
+    display: inline-block;
+    width: 33%;
+}
+.img img:hover{
+    width: 250px;
+    height: 210px;
+}
+.img img{
+    width: 200px;
+    height: 160px;
+    margin-left: 62px;
+    border-radius: 20px;
+    border: 5px solid #91caff;
+}
+#races .container{
+    display: inline-block;
+    margin-left: 130px;
+}
+#races h1{
+    font-family: Helvetica;
+    font-size: 40px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+#races .tekst{
+    font-family: Helvetica;
+    color: steelblue;
+    text-align: center;
+    margin-left: -115px;
+}
+#races{
+    border-bottom: 7px solid steelblue;
+}
+#about{
+    padding-left: 130px;
+    display: inline-block;
+    background: darkgray;
+}
+#about .forma{
+    width:30%;
+    float: left;
+
+}
+#about .forma img{
+    width: 100%;
+
+}
+#about .forma .team-info{
+    text-align: left;
+    font-family: Calibri;
+    margin-left: 60px;
+    width: 70%;
+}
+#about .forma .team-info h2{
+    font-size: 30px;
+}
+#about .forma .team-info small{
+    font-size: 20px;
+
+}
+#about .section-title{
+    text-align: center;
+    font-size: 40px;
+}
+#slajd{
+    margin-top: 10px;
+    display: inline-block;
+    width: 100%;
+    margin-left: -60px;
+}
+#slajd .row .slika .slk{
+    background: url("../images/moitedojran.JPG")no-repeat;
+    background-size: contain;
+    width: 500px;
+    height: 300px;
+    float: left;
+    margin-left: 300px;
+    margin-right: -50px;
+}
+#slajd .team-info{
+    float: right;
+}
+#slajd .kontejner{
+    display: inline-block;
+    background: darkslategray;
+    height: 300px;
+}
+#slajd .kontejner img{
+    border-radius: 90px;
+    margin-left: 20px;
+    background: palegreen;
+    float: left;
+}
+
+#slajd .kontejner p{
+    color: white;
+    margin-left: 30px;
+    font-family: Helvetica;
+    width: 70%;
+}
+#slajd .kontejner h1{
+    color: white;
+    font-size: 30px;
+    margin-left: 30px;
+    padding-right: 20px;
+    font-family: Helvetica;
+}
+#kontakt{
+    align-content: center;
+
+}
+#kontakt .forma{
+    display: inline-block;
+    width: 33%;
+    float: left;
+    margin-right: -660px;
+    margin-left: 430px;
+}
+#kontakt .forma input{
+    width: 200px;
+    height: 30px;
+}
+#kontakt div:nth-child(4) input{
+    width: 200px;
+    border-radius: 30px;
+    height: 30px;
+    background: steelblue;
+    color: white;
+}
+#kontakt .forma1{
+    display: inline-block;
+    margin-left: 500px;
+    margin-top: 20px;
+}
+#kontakt .forma1 textarea{
+    width: 600px;
+}
+#kontakt .section-title{
+    text-align: center;
+    font-size: 30px;
+    color: gray;
+    font-family: Helvetica;
+}
+#slajd{
+    background: #caffce;
+    padding-right: 60px;
+}
+#kontakt{
+    background: #caffce;
+}
+
+
+
